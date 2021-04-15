@@ -26,5 +26,12 @@ int main() {
  vector<string> *p4 {nullptr};
  string *p5 {nullptr};
  
+ cout << "\nsizedof p1 is: " << sizeof p1 << endl;
+ cout << "sizeof p2 is: " << sizeof p2 << endl;
+ cout << "size of p3 is: " << sizeof p3 << endl;
+ cout << "size of p4 is: " << sizeof p4 << endl;
+ cout << "size of p5 is: " << sizeof p5 << endl;
+ 
+
  return 0;
 }
