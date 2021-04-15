@@ -18,5 +18,7 @@ int main() {
  
  p = nullptr;
  cout << "\nValue of p is: " << p << endl;
+ cout << "Address of p is: " << &p << endl;
+ 
  return 0;
 }
