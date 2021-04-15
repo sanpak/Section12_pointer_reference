@@ -39,5 +39,9 @@ int main() {
 
  score_ptr = &score;
 
+ cout << "Value of score is: " << score << endl;
+ cout << "Address of score is: " << &score << endl;
+ cout << "Value of score_ptr is: " << score_ptr << endl;
+
  return 0;
 }
