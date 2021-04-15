@@ -31,7 +31,13 @@ int main() {
  cout << "size of p3 is: " << sizeof p3 << endl;
  cout << "size of p4 is: " << sizeof p4 << endl;
  cout << "size of p5 is: " << sizeof p5 << endl;
- 
+
+ int score {10};
+ double high_temp{100.7};
+
+ int *score_ptr {nullptr};
+
+ score_ptr = &score;
 
  return 0;
 }
