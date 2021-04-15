@@ -16,5 +16,7 @@ int main() {
  cout << "Address of p is: " << &p << endl;
  cout << "sizeof of p is: " << sizeof p << endl;
  
+ p = nullptr;
+ cout << "\nValue of p is: " << p << endl;
  return 0;
 }
