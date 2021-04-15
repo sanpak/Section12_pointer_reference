@@ -19,6 +19,12 @@ int main() {
  p = nullptr;
  cout << "\nValue of p is: " << p << endl;
  cout << "Address of p is: " << &p << endl;
+
+ int *p1{nullptr};
+ double *p2{nullptr};
+ unsigned long long *p3 {nullptr};
+ vector<string> *p4 {nullptr};
+ string *p5 {nullptr};
  
  return 0;
 }
