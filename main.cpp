@@ -43,5 +43,11 @@ int main() {
  cout << "Address of score is: " << &score << endl;
  cout << "Value of score_ptr is: " << score_ptr << endl;
 
+int *test_ptr {nullptr};
+int score2 {235};
+
+test_ptr = &score2;
+
+cout << V
  return 0;
 }
